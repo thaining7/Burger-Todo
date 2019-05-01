@@ -1,19 +1,26 @@
 body {
-    background-image: url(../images/dust_scratches.png);
+    background-image: url(../images/mcdowells.jpg);
+    
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #non-devoured-burgers {
-    /* background-color: aquamarine; */
+    background-color: rgba(255, 255, 255, 0.5);
     float: left;
-    /* color: antiquewhite; */
+    
 }
 
 #add-burger {
+    background-color: rgba(255, 255, 255, 0.5);
     float: left;
-    margin-top: -390px;
+    /* margin-top: -390px; */
 }
 
 #devoured-burgers {
+    background-color: rgba(255, 255, 255, 0.5);
     float: right;
 }
 
