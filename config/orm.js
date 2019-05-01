@@ -10,6 +10,23 @@ function printQuestionMarks(num) {
     return arr.toString();
 }
 
+function objToSql(ob) {
+    var arr = [];
+
+    for (var key in ob) {
+        var value = ob[key];
+        if (Object.hasOwnProperty.call(ob, key)) {
+            if (typeof value === "string" && value.indexOf(" ") >= 0) {
+                value = "'" + value + "'";
+            }
+            
+            arr.push(key + "=" + value);
+        }
+    }
+
+    return arr.toString();
+}
+
 var orm = {
     selectAll: function (tableName, cb) {
         var queryString = "SELECT * FROM " + tableName + ";";
@@ -61,7 +78,7 @@ var orm = {
     //         cb(result);
     //     });
     // }
-    update: function (table, objColVals, condition, cb) {
+    updateOne: function (table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
         queryString += " SET ";
