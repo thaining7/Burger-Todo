@@ -58,26 +58,7 @@ var orm = {
             cb(result);
         });
     },
-    // insertOne: function(tableName, tablecol1, tablecol2, burgerName, cb) {
-    //     var queryString = "INSERT INTO ?? (??, ??) values (?, false)";
-    //     connection.query(queryString, [tableName, tablecol1, tablecol2, burgerName], function(err, result) {
-    //         if (err) {
-    //             throw err;
-    //         }
-    //         console.log(result);
-    //         cb(result);
-    //     });
-    // },
-    // updateOne: function (tableName, keyFieldName, keyFieldVal, cb) {
-    //     var queryString = "UPDATE ?? SET devoured = true WHERE ?? = ?";
-    //     connection.query(queryString, [tableName, keyFieldName, keyFieldVal], function (err, result) {
-    //         if (err) {
-    //             throw err;
-    //         }
-    //         console.log(result);
-    //         cb(result);
-    //     });
-    // }
+    
     updateOne: function (table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
@@ -98,5 +79,4 @@ var orm = {
 }
 
 module.exports = orm;
-//call insertOne("burger", "burger_name", "devoured", formfieldvalue);
 

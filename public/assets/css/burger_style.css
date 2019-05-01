@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/dust_scratches.png);
+}
+
+#non-devoured-burgers {
+    /* background-color: aquamarine; */
+    float: left;
+    /* color: antiquewhite; */
+}
+
+#add-burger {
+    float: left;
+    margin-top: -390px;
+}
+
+#devoured-burgers {
+    float: right;
+}
+

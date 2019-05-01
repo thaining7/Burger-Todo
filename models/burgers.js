@@ -12,11 +12,6 @@ var burger = {
             cb(res);
         });
     },
-    // insertOne: function (cb) {
-    //     orm.insertOne("burgers", "burger_name", "devoured", function (res) {
-    //         cb(res);
-    //     });
-    // },
     updateOne: function (objColVals, condition, cb) {
         orm.updateOne("burgers", objColVals, condition, function (res) {
             cb(res);
