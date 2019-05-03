@@ -19,7 +19,7 @@ function objToSql(ob) {
             if (typeof value === "string" && value.indexOf(" ") >= 0) {
                 value = "'" + value + "'";
             }
-            
+
             arr.push(key + "=" + value);
         }
     }
@@ -58,7 +58,7 @@ var orm = {
             cb(result);
         });
     },
-    
+
     updateOne: function (table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
 
@@ -76,7 +76,21 @@ var orm = {
             cb(result);
         });
     },
-}
+    deleteOne: function (table, condition, cb) {
+        var queryString = "DELETE FROM " + table;
+        queryString += " WHERE ";
+        queryString += condition;
+
+        connection.query(queryString, function (err, result) {
+            if (err) {
+                throw err;
+            }
+
+            cb(result);
+        });
+    }
+};
+
 
 module.exports = orm;
 
