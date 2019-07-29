@@ -56,9 +56,11 @@ var orm = {
     },
     ...
 }
+```
 
-### Express Router POST to burger API route
+#### Express Router POST to burger API route
 
+```
 router.post("/api/burgers", function (req, res) {
     burger.insertOne([
         "burger_name", "devoured"
