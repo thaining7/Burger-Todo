@@ -1,6 +1,6 @@
 # Project Title
 
-### Create your own delicious burgers! Save them for later, then delete them.
+### Create your own delicious burgers, Save them, then delete them.
 
 https://burger-todo.herokuapp.com/
 
