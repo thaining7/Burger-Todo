@@ -9,7 +9,6 @@ https://burger-todo.herokuapp.com/
 #### This application demonstrates basic CRUD database operations
 
 # Tech Used
-### Built With: 
 
 * JavaScript
 * MVC structure
