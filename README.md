@@ -10,8 +10,6 @@ https://burger-todo.herokuapp.com/
 
 ### This application demonstrates basic CRUD database operations
 
-# Screenshots
-
 # Tech Used
 ## Built With: 
 
