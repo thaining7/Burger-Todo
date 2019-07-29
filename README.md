@@ -2,7 +2,7 @@
 
 ## Burger App
 
-#### Create your own delicious burgers, Save them, then delete them.
+#### Create your own delicious burgers, save them, then delete them.
 
 https://burger-todo.herokuapp.com/
 
@@ -13,6 +13,7 @@ https://burger-todo.herokuapp.com/
 # Tech Used
 ### Built With: 
 
+* JavaScript
 * MVC structure
 * ORM
 * CRUD
