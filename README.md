@@ -2,16 +2,16 @@
 
 ## Burger App
 
-### Create your own delicious burgers, Save them, then delete them.
+#### Create your own delicious burgers, Save them, then delete them.
 
 https://burger-todo.herokuapp.com/
 
 # Motivation
 
-### This application demonstrates basic CRUD database operations
+#### This application demonstrates basic CRUD database operations
 
 # Tech Used
-## Built With: 
+### Built With: 
 
 * MVC structure
 * ORM
@@ -30,7 +30,7 @@ https://burger-todo.herokuapp.com/
 
 # Code Example
 
-### Inserting a new burger into the database using the ORM:
+#### Inserting a new burger into the database using the ORM:
 
 ```
 var orm = {
@@ -70,6 +70,6 @@ router.post("/api/burgers", function (req, res) {
 });
 ```
 
-# How to use?
+# How to use
 
 #### Simply enter a burger of your choice into the add a burger box. It will then populate the non-devoured box, where you can then devour the burger. Devoured burgers can then be deleted.
