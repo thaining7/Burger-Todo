@@ -72,7 +72,7 @@ router.post("/api/burgers", function (req, res) {
 
 # Screenshots
 
-![App Screenshot](/assets/images/Screenshot.png)
+![App Screenshot](/public/assets/images/Screenshot.png)
 
 # How to use
 
