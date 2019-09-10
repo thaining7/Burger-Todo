@@ -70,6 +70,10 @@ router.post("/api/burgers", function (req, res) {
 });
 ```
 
+# Screenshots
+
+![App Screenshot](/assets/images/Screenshot.png)
+
 # How to use
 
 #### Simply enter a burger of your choice into the add a burger box. It will then populate the non-devoured box, where you can then devour the burger. Devoured burgers can then be deleted.
