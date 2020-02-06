@@ -6,7 +6,7 @@ https://burger-todo.herokuapp.com/
 
 # Motivation
 
-#### This application demonstrates basic CRUD database operations
+#### This application demonstrates CRUD database operations
 
 # Tech Used
 
