@@ -1,14 +1,14 @@
-# Project Title
+# Eat-Da-Burger!
 
-#### Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
 https://burger-todo.herokuapp.com/
 
-# Motivation
+## Description
 
-#### This application demonstrates CRUD database operations
+This application demonstrates CRUD database operations
 
-# Tech Used
+## Tech Used
 
 * JavaScript
 * MVC structure
@@ -20,15 +20,15 @@ https://burger-todo.herokuapp.com/
 * jQuery
 * Handlebars.js
 
-# Features
+## Features
 
 * MySQL database
 * Create, Update and Delete operations
 * ORM
 
-# Code Example
+## Code Example
 
-#### Inserting a new burger into the database using the ORM:
+Inserting a new burger into the database using the ORM:
 
 ```
 var orm = {
@@ -56,7 +56,7 @@ var orm = {
 }
 ```
 
-#### Express Router POST to burger API route
+Express Router POST to burger API route
 
 ```
 router.post("/api/burgers", function (req, res) {
@@ -70,11 +70,11 @@ router.post("/api/burgers", function (req, res) {
 });
 ```
 
-# Screenshots
+## Screenshots
 
 ![App Screenshot](/public/assets/images/Screenshot.png)
 
-# How to use
+## How to use
 
 * Enter a burger of your choice into the add a burger box
 * It will then populate the non-devoured box, where you can then devour the burger
